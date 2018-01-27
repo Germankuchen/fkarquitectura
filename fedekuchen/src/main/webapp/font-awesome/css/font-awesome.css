@@ -543,6 +543,9 @@
 .fa-facebook-square:before {
   content: "\f082";
 }
+.fa-instagram-square:before {
+  content: "\f16d";
+}
 .fa-camera-retro:before {
   content: "\f083";
 }
@@ -1195,9 +1198,6 @@
 }
 .fa-stack-overflow:before {
   content: "\f16c";
-}
-.fa-instagram:before {
-  content: "\f16d";
 }
 .fa-flickr:before {
   content: "\f16e";
