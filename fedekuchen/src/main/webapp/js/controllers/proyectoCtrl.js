@@ -1,6 +1,12 @@
 angular.module('myApp').controller("ProyectoCtrl",
 function($scope) {
-	console.log('Llego al Proyecto');
+	
+	$scope.irAAltos = function()
+	{
+		$location.path('/altosDelSauce');
+	}
+	
+	
 });
 
 

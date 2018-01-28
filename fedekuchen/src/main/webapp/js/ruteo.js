@@ -15,6 +15,10 @@ angular.module('myApp').config(function($routeProvider) {$routeProvider
         templateUrl : "disenio.html",
         controller: "DisenioCtrl"
     })
+    .when("/altosDelSauce", {
+        templateUrl : "altosDelSauce/altos.html",
+        controller: "AltosCtrl"
+    })
 });
 
 

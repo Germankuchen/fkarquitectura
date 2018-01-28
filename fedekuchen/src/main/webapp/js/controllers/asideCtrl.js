@@ -21,6 +21,7 @@ function($scope,$location) {
 	{
 		$location.path('/');
 	}
+
 	
 });
 

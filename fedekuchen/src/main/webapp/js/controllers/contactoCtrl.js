@@ -1,6 +1,6 @@
-angular.module('myApp').controller("ContactoCtrl",
+angular.module('myApp').controller("AltosCtrl",
 function($scope) {
-	console.log('Llego al Contacto');
+	console.log('Llego a Altos del Sauce');
 });
 
 
