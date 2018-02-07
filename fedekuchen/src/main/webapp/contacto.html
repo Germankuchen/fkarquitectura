@@ -16,6 +16,9 @@
             </div>
             <!-- Contact Details Column -->
             <div class="col-md-4">
+            	<p>
+                    <strong>Arq. Kuchen, Federico</strong>
+                </p>
                 <p>
                     Juan de Garay 3028<br>Santa Fe<br>
                 </p>
@@ -44,24 +47,26 @@
                         <div class="controls">
                             <label>Nombre:</label>
                             <input type="text" class="form-control" id="name" required data-validation-required-message="Por favor ingrese su nombre">
-                            <p class="help-block"></p>
+                            <p class="help-block" ng-model="nombre"></p>
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Email:</label>
-                            <input type="email" class="form-control" id="email" required data-validation-required-message="Por favor ingrese su mail">
+                            <input type="email" class="form-control" id="email" required data-validation-required-message="Por favor ingrese su mail"
+                            	ng-model="email">
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Mensaje:</label>
-                            <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Debe ingresar el mensaje" maxlength="999" style="resize:none"></textarea>
+                            <textarea rows="10" cols="100" class="form-control" id="message" ng-model="mensaje"
+                            	required data-validation-required-message="Debe ingresar el mensaje" maxlength="999" style="resize:none"></textarea>
                         </div>
                     </div>
                     <div id="success"></div>
                     <!-- For success/fail messages -->
-                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <button type="submit" class="btn btn-primary" ng-click="enviar()">Enviar</button>
                 </form>
             </div>
 
